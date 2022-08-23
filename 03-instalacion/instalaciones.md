@@ -12,3 +12,4 @@ npm start
 Modificarermos algunas funciones
 .log
 .commit
+.gitkeep
