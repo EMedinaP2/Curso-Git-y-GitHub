@@ -2,6 +2,9 @@
 Seguir estos pasos:
 
 yarn install
-hola que haces
 
 npm install
+
+2.- Ejecutar el nuevo proyecto
+npm start
+
