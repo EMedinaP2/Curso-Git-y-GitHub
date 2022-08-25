@@ -1,0 +1,37 @@
+- abreviaturas
+-- palabras completas
+
+git --version // Ver la version de git
+git help //Ayuda en git
+git clone // Clona los repositorios de git
+git help <comando> //ver ayuda de un comando en git
+git config --global user.name // Define el nombre del usuario
+git config --global user.email // Define el email del usuario
+git config --global -e // Abre una pantalla para configurar al usuario
+git init // Inicializa un repositorio en esta carpeta
+git config --global init.defaultBranch <name> // Lo mismo que init pero se asigna 
+un nombre a la rama principal.
+El comando init crea una carpeta oculta .git Nunca borrar.
+git status // Da información sobre el repositorio, rama, version, etc.
+git add // Añade el archivo al Staged 
+git add . // Añade todos los archivos
+git reset // Remueve un archivo del Staged
+git commit // Realiza un commit , mueve los archivos del Staged al repositorio
+git checkout -- .// Regresa los archivos del working area a lo subido en el ultimo commit
+git branch // nos dice en que rama nos  encontramos trabajando
+git branch -m //cambiar nombre de la rama
+git add *.extension // Agrega al Stage todos los archivos de una extension
+.gitkeep // archivo especial de git para mantener un folder vacio
+git diff // Se ve la diferencia de un archivo en el working area con el repositorio
+
+git commit --amend -m "" // Corrige el mensaje del commit
+git reset --soft HEAD^ // Regresa al ultimo commit hecho en el repositorio                                                                                                
+git reset --Hard HEAD^ // Elimina los  commit hecho en el repositorio  hasta la referencia dada, tambien sirve para moverse a otra otra referencia de Commit recuperando
+todo los comits hasta ese.
+git reflog // muestra los hashes de todos los commits hechos aunque se hayan borrado
+.gitignore // los nombres de archivos que esten aqui son ignorados por git
+git tag // Crea una tag para el commit actual
+git tag -d // Eliminar una etiqueta
+git show tag-name // Muestra infromacion de la tag y alcommit al que esta relacionado
+git stash // Almacenar cambios del working area en un stash y los elimina del working area
+git stash list // Lista todos los stash
